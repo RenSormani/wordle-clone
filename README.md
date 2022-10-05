@@ -1,5 +1,5 @@
-# My React Portfolio Page
-I had already created a portfolio page back at the beginning of my _nology course to become a software developer, however that was using just HTML and css. Since then I have learnt how to use React and JavaScript, so I wanted to update my portfolio using those tools. 
+# Ren-dle - A Wordle Clone
+I really enjoy word games. Crosswords, anagrams, word searches. So combining a passion for words with a passion for coding lead me to this cheeky little project ... a clone of Wordle. Don't forget to pay homage to the real Wordle by heading over to the <a href="https://www.nytimes.com/games/wordle/index.html">New York Times</a>"New webpage!
 
 # What I used:
 •	React
