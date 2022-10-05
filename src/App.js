@@ -94,10 +94,13 @@ const App = () => {
           {gameOver.gameOver ? <GameOver /> : <Keyboard />}
         </div>
       </AppContext.Provider>
+      {/* <div className="container">
       <footer>
         <Footer />
       </footer>
+      </div> */}
     </div>
+    
 
   );
 }

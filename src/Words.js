@@ -21,3 +21,5 @@ export const generateWordSet = async () => {
     });
   return { wordSet, todaysWord };
 };
+
+// const wordArr = result.split("\r\n");
