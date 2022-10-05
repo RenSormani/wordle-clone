@@ -1,5 +1,5 @@
 # Ren-dle - A Wordle Clone
-I really enjoy word games. Crosswords, anagrams, word searches. So combining a passion for words with a passion for coding lead me to this cheeky little project ... a clone of Wordle. Don't forget to pay homage to the real Wordle by heading over to the <a href="https://www.nytimes.com/games/wordle/index.html">New York Times</a>"New webpage!
+I really enjoy word games. Crosswords, anagrams, word searches. No word is too long or too short. So combining a passion for words with a passion for coding lead me to this cheeky little project ... creating a clone of Wordle. Don't forget to pay homage to the real Wordle by heading over to the <a href="https://www.nytimes.com/games/wordle/index.html">New York Times</a> webpage!
 
 # What I used:
 •	React
@@ -9,10 +9,12 @@ I really enjoy word games. Crosswords, anagrams, word searches. So combining a p
 •	GitHub
 
 # The Design
-The design of my new portfolio wasn't dissimilar to that of my previous portfolio. I kept the black background and the white font, as well as the logo and the personal image at the top of the homepage. WHile I did eliminate the arrows that I had on the original, I pretty much kept the layout the same, with the hero section at the top, followed by an about/skills section (with link to CV and a fun carousel), a projects section and lastly the contact section.
+The design of Ren-dle is in keeping with the original Wordle. It's pretty basic, with a black background, a white h1 heading with a gray border-bottom, followed by two boards: the game board (which comprises of 6 5-letter guesses) and the QWERTY keyboard (which includes larger DELETE and ENTER buttons. Upon completion of the game, a basic text box with a Game Over message appears.
 
 # The Process
-When it came to redesigning my portfolio I had already decided that I would be using React to create the single page application. The design itself was based largely on the original portfolio, but coupled with the use of such libraries as React Bootstrap (which aided with the responsiveness and a snazzy new navbar) and animate, it gave the website a more professional/fun feel.
+I took a step-by-step process to designing Ren-dle. Using ReactJS to create the single-page application, I created a Board component, which represented each cell/letter on the board, using a matrix that I created in a Word.js document. The cells were created using six divs representing different rows within the board. A letter component was also created to evaluate the letter position and attempt value.
+The keyboard component was also made using divs and three arrays of key values which I eventually mapped through to get the individual keys. Here we had to add the ENTER and DELETE keys individually because they were larger buttons. A Key component was also created that allows you to select the letter through an onClick function and add it to the board.
+
 
 # The Functionality
 •	The portfolio page itself is pretty starightforward, given it is a single page application. The navbar provides the links to various points on the page, with the logo acting as a home link as well. The social media links also link to my social media pages away from the site.
