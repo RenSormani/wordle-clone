@@ -4,7 +4,6 @@ import { AppContext } from "../../App";
 
 const Keyboard = () => {
     const { 
-        board,
         disabledLetters,
         currAttempt,
         gameOver,

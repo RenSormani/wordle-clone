@@ -3,13 +3,9 @@ import { AppContext } from '../../App';
 
 const GameOver = () => {
     const {
-        board,
-        setBoard,
         currAttempt,
         gameOver,
-        onSelectLetter,
         correctWord,
-        onDelete,
       } = useContext(AppContext);
       return (
         <div className="gameOver">

@@ -1,5 +1,4 @@
 import React from 'react';
-import { AppContext } from '../../App';
 import Letter from '../Letter/Letter';
 
 const Board = () => {
