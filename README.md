@@ -22,9 +22,7 @@ Using React Hooks (UseState, UseEffect), State Management (UseContext, Context A
 
 From selectLetter functions, to GameOver functions and correctWord functions, the game works as you would expect.
 
-As explained earlier I used Fetch to collect the wordBank and convert it into a Set, which we then represented in a state so we had access to it everywhere in the project, especially when we press Enter. That was important because, we needed to confirm upon Enter press, whether or not that word was in the word bank.
-
-
+As explained earlier I used Fetch to collect the 2500-word wordBank and convert it into a Set, which we then represented in a state so we had access to it everywhere in the project.
 
 # Ren-dle
 ![Rendle](https://user-images.githubusercontent.com/93707792/194070320-d89709d4-ca33-486e-86f2-663f4b685e53.jpg)
